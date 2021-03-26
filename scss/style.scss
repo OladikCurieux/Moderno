@@ -3,4 +3,67 @@
 
 
 
+.hedaer__top-inner{
+   height: 90px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__text{
+   margin-left: auto;
+   margin-right: 50px;
+
+   span{
+      color: $red;
+   }
+}
+
+.header__btn{
+   padding: 9px;
+   width: 72px;
+
+   font-size: 12px;
+   color: $white;
+
+   border-radius: 4px;
+   align-items: center;
+   
+}
+
+.header__btn-login{
+   background-color: $green;
+}
+
+.header__btn-register{
+   background-color: $red;
+}
+
+.header__menu{
+   height: 60px;
+   background-color: $text;
+}
+
+.menu{
+   display: flex;
+   align-items: center;
+   height: 60px;
+
+}
+
+.menu__list{
+   li{
+      display: inline-block;
+      &+li{
+         margin-left: 30px;
+      }
+   }
+
+   a{
+      color: $white;
+      font-size: 14px;
+   }
+
+   
+}
 
